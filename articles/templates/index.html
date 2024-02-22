@@ -1,0 +1,10 @@
+{% extends 'base.html' %} <!-- вказали, що вставлятимемо у base.html  -->
+{% block title %}         <!-- якщо 'base.html' не знаходиться одразу в папці templates  -->
+    Main page             <!-- в лапках вказуємо до нього шлях, наприклад до наступної директорії  -->
+{%endblock%}
+
+{% block body %}
+<div class="container">
+    <h1>Hello owrld! </h1>
+</div>
+{%endblock%}
